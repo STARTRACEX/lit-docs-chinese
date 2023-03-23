@@ -1,0 +1,11 @@
+{
+  "overview":"组件概述",
+  "defining":"定义组件",
+  "rendering":"渲染组件",
+  "properties":"响应式属性",
+  "styles":"组件样式",
+  "lifecycle":"组件生命周期",
+  "shadow-dom":"组件 Shadow DOM",
+  "events":"组件事件",
+  "decorators":"修饰器"
+}

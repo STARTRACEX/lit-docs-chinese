@@ -1,0 +1,18 @@
+{
+  "index": "什么是lit",
+  "getting-started":"快速开始",
+  "components": "组件",
+  "templates": "模板",
+  "composition": "组合",
+  "tools": "工具",
+  "localization": "本地化",
+  "ssr": "服务端渲染",
+  "apis":"API",
+  "release": "版本",
+  "libraries": "库",
+  "Next": {
+    "type": "page",
+    "href": "https://next.startrace.games/",
+    "newWindow": true
+  }
+}

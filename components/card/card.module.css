@@ -1,0 +1,23 @@
+.card {
+   display: inline-block;
+   text-align: center;
+   --m:6px;
+   width: calc(50% - 2.45px - 2 * var(--m));
+   margin: var(--m);
+   font-size: 1.2em;
+   --h: 2.4em;
+   height: var(--h);
+   line-height: var(--h);
+   border: 1.12px solid rgb(170, 170, 170);
+   border-radius: 16px 6px;
+}
+
+.card:hover {
+   filter: brightness(82%);
+}
+
+@media screen and (max-width: 640px) {
+   .card {
+      width: 100%;
+   }
+}
