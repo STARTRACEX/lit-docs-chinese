@@ -13,7 +13,7 @@ npm install lit-html
 主要引入了`html`和`render`
 
 ```js
-import {html, render} from 'lit-html';
+import { html, render } from 'lit-html';
 ```
 
 独立`lit-html`包还包括完整`lit`开发人员指南中描述的以下功能的模块
@@ -36,7 +36,7 @@ html`<h1>Hello ${name}</h1>`
 lit的html模板表达式不会导致创建或更新任何DOM.它只是DOM的一个描述,称为`TemplateResult`.要实际创建或更新DOM,需要将`TemplateResult`传递给`render()`,以及要渲染到的容器:
 
 ```js
-import {html, render} from 'lit-html';
+import { html, render } from 'lit-html';
 const name = 'world';const sayHi = html`<h1>Hello ${name}</h1>`;render(sayHi, document.body);
 ```
 
@@ -45,7 +45,7 @@ const name = 'world';const sayHi = html`<h1>Hello ${name}</h1>`;render(sayHi, do
 要使模板动态化,您可以创建一个模板.随时在数据更改时调用模板函数
 
 ```js
-import {html, render} from 'lit-html';
+import { html, render } from 'lit-html';
 // 定义
 const myTemplate = (name) => html`<div>Hello ${name}</div>`;
 Render the template with some datarender(myTemplate('earth'), document.body);
@@ -82,7 +82,8 @@ Ttemplate函数返回包含模板和输入数据的`TemplateResult`.这是使用
 ```ts
 const template = () => html`...`;
 const container = document.getElementById('container');
-const renderBefore = container.querySelector('footer');render(template(), container, {renderBefore});
+const renderBefore = container.querySelector('footer');
+render(template(), container, {renderBefore});
 ```
 
 上面的示例将在 `<header>` 和 `<footer>` 之间渲染模板
