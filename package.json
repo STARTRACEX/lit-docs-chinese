@@ -1,7 +1,9 @@
 {
-  "name": "docs",
-  "version": "0.0.1",
-  "description": "With Nextra Docs",
+  "name": "lit-docs-chinese",
+  "version": "0.0.0",
+  "description": "Lit document for chinese",
+  "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

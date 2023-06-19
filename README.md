@@ -1,1 +1,1 @@
-# Nextra Docs
+# Lit document for chinese
