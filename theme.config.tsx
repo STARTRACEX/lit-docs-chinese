@@ -3,9 +3,9 @@ import { DocsThemeConfig } from 'nextra-theme-docs';
 import Footer from "./components/footer";
 const config: DocsThemeConfig = {
   head: () => {
-    return <>
+    return <a href="/">
       <link rel="shortcut icon" type="images/x-icon" href="./favicon.ico" />
-      </>;
+    </a>;
   },
   useNextSeoProps() {
     return {
@@ -26,7 +26,7 @@ const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/startracex',
   },
-  docsRepositoryBase: 'https://github.com/startracex/docs/blob/main',
+  docsRepositoryBase: 'https://github.com/startracex/lit-docs-chinese/blob/main',
   footer: {
     component: Footer
   },

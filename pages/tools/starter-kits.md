@@ -9,12 +9,12 @@
 
 这两个项目都定义了一个lit组件。他们还添加了一组可选工具，用于开发、检查和测试组件
 
-- 用于管理依赖项的 Node.js 和 npm。需要node.js 10+。
-- 本地开发服务器，[Web 开发服务器](https://modern-web.dev/docs/dev-server/overview/)。
-- 使用 [ESLint](https://eslint.org/)
+* 用于管理依赖项的 Node.js 和 npm。需要node.js 10+。
+* 本地开发服务器，[Web 开发服务器](https://modern-web.dev/docs/dev-server/overview/)。
+* 使用 [ESLint](https://eslint.org/)
   和[lit-analyzer](https://www.npmjs.com/package/lit-analyzer)进行检查。
-- 使用 Web 测试运行程序进行测试。
-- 一个使用
+* 使用 Web 测试运行程序进行测试。
+* 一个使用
   [web-component-analyzer](https://www.npmjs.com/package/web-component-analyzer)
   和 [eleventy](https://www.11ty.dev/) 构建的静态文档站点
 
@@ -67,10 +67,10 @@ npm run clean
 
 更改所有MyElement类名为新的类名
 
-更改`<script>`的`src`
+更改 `<script>` 的 `src`
 
-_如果您使用的是 TypeScript_,并且_之前**没有**执行`npm run build:watch`_
-,则再次执行
+_如果您使用的是 TypeScript_, 并且_之前**没有**执行 `npm run build:watch` _
+, 则再次执行
 
 ```sh
 npm run build
