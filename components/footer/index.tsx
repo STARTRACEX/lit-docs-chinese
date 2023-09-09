@@ -1,20 +1,14 @@
-import { useEffect, useState } from 'react';
 import { SuperAnchor } from "godown/react";
-import { stylobj } from 'powerstyl';
+import { css } from 'powerstyl';
 export default () => {
-   var date = new Date();
-   const [host, setHost] = useState('');
-   useEffect(() => {
-      setHost(window.location.host);
-   }, [typeof window]);
-   return (
-      <footer style={stylobj`
+   return <footer style={css`
 padding: 20px;
 display: flex;
-justify-content: space-between;`}>
-         <span>©{date.getFullYear()} {String(host)} </span>
-         <SuperAnchor arrow="hand" href="https://nextra.site/">with Nextra</SuperAnchor>
-      </footer>
-   );
+justify-content: space-between;
+color: rgba(250,251,252,.6);
+`}>
+      <span>©{new Date().getFullYear()} STARTRACEX</span>
+      <SuperAnchor arrow="hand" href="https://nextra.site/">With Nextra</SuperAnchor>
+   </footer>;
 }
 

@@ -96,7 +96,7 @@ disconnectedCallback() {
 
 [示例](https://lit.dev/playground/#sample=docs/components/events/delegate)
 
-#### 一异步添加事件监听
+#### 异步添加事件监听
 
 要在渲染后添加事件侦听器, 请使用 `firstUpdated` 方法. 这是一个Lit生命周期回调, 在组件首次更新并呈现其模板化DOM后运行.
 
@@ -224,7 +224,7 @@ this.dispatchEvent(event);
 
 ## 在shadow DOM中处理事件
 
-使用影子 DOM 时, 对标准事件系统进行一些修改非常重要. 影子 DOM 的存在主要是为了在
+使用Shadow DOM 时, 对标准事件系统进行一些修改非常重要. 影子 DOM 的存在主要是为了在
 DOM 中提供一个范围机制, 该机制封装了有关这些“影子”元素的详细信息. 因此, 影子 DOM
 中的事件封装了来自外部 DOM 元素的某些细节
 

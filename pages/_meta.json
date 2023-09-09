@@ -1,16 +1,16 @@
 {
   "index": "什么是lit",
-  "getting-started":"快速开始",
+  "getting-started": "快速开始",
   "components": "组件",
   "templates": "模板",
   "composition": "组合",
   "tools": "工具",
   "localization": "本地化",
-  "apis":"API",
+  "apis": "API",
   "libraries": "库",
-  "Next": {
+  "Npm": {
     "type": "page",
-    "href": "https://next.startrace.games/",
+    "href": "https://npmjs.com/package/lit",
     "newWindow": true
   }
 }
